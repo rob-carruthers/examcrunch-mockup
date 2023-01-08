@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     background-color: rgb(223, 222, 222);
@@ -25,6 +28,10 @@ body {
     color:rgb(235, 233, 233)
 }
 
+.sidebar a {
+    color:rgb(235, 233, 233)
+}
+
 .sidebar #logo {
     font-family: "Fredoka One";
     font-size: 1.5rem;
@@ -35,6 +42,15 @@ body {
     flex-direction: column;
     gap: 10px;
     list-style: none;
+    cursor: pointer;
+}
+
+.sidebar li {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 30px auto;
+    justify-content: start;
+    align-items: center;
 }
 
 #crunch {
