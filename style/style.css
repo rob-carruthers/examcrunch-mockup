@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     padding: 15px;
     gap: 40px;
-    background-color: rgb(0, 95, 0);
+    background-color: #166534;
     grid-row: 1 / 4;
     color:rgb(235, 233, 233)
 }
@@ -69,11 +69,16 @@ body {
 
 #searchBox {
     border-radius: 12px;
-    background-color: rgb(223, 222, 222);
-    border: 0;
+    background-color: #dcfce7;
+    border: 1px solid #166534;
     height: 24px;
     width: 300px;
-    padding-left: 6px;
+    padding-left: 8px;
+}
+
+#searchBox:focus {
+    border: 2px solid #166534;
+    outline: none;
 }
 
 #user {
