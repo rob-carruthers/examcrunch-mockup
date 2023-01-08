@@ -28,6 +28,10 @@ body {
     align-items: center; 
 }
 
+.header a {
+    color: black;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column;
