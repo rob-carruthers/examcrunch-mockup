@@ -71,6 +71,12 @@ body {
     font-size: 1.3em;
 }
 
+#search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 #searchBox {
     border-radius: 12px;
     background-color: #dcfce7;
@@ -88,6 +94,7 @@ body {
 #user {
     display: flex;
     gap: 14px;
+    align-items: center;
 }
 
 .footer {
@@ -97,4 +104,8 @@ body {
     grid-area: 4 / 1 / 5 / 3;
     justify-content: center;
     align-content: center;
+}
+
+.iconify {
+    font-size: 1.4em;
 }
