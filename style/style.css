@@ -13,9 +13,19 @@ body {
 
 #container {
     display: grid;
-    grid-template: 100px 100px auto 40px / 200px auto ;
+    grid-template: 70px 100px auto 30px / 200px auto ;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
     height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    font-weight: bold;
+    padding: 20px;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .sidebar {
@@ -55,6 +65,20 @@ body {
 
 #crunch {
     font-size: 1.3em;
+}
+
+#searchBox {
+    border-radius: 12px;
+    background-color: rgb(223, 222, 222);
+    border: 0;
+    height: 24px;
+    width: 300px;
+    padding-left: 6px;
+}
+
+#user {
+    display: flex;
+    gap: 14px;
 }
 
 .footer {
