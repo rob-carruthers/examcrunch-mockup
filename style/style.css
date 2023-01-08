@@ -97,6 +97,43 @@ body {
     align-items: center;
 }
 
+.mainDashboard {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 200px;
+}
+
+.mainDashboard .actionsContainer {
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+}
+
+.mainDashboard .actionsContainer .cardContainer {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.actionCard {
+    background-color: white;
+    height: 200px;
+    width: min(250px, 100%);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 4px gray;
+    border-left: 8px solid #16a34a;
+}
+
+.actionCard.warning {
+    background-color: white;
+    height: 200px;
+    width: min(250px, 100%);
+    border-radius: 8px;
+    padding: 8px;
+    border-left: 8px solid #fde047;
+}
+
 .footer {
     font-size: 0.9rem;
     background-color: darkgray;
