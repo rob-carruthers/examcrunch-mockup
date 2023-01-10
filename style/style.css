@@ -135,12 +135,11 @@ body {
 }
 
 .actionCard.warning {
-    background-color: white;
-    height: 200px;
-    width: min(250px, 100%);
-    border-radius: 8px;
-    padding: 8px;
     border-left: 8px solid #fde047;
+}
+
+.actionCard.alert {
+    border-left: 8px solid #b91c1c;
 }
 
 .footer {
