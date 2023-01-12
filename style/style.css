@@ -58,6 +58,11 @@ body {
     color:rgb(235, 233, 233)
 }
 
+.sidebar li:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 .sidebar #logo {
     font-family: "Fredoka One";
     font-size: 1.5rem;
