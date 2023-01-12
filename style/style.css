@@ -130,6 +130,8 @@ body {
 }
 
 .actionCard {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     height: 150px;
     width: minmax(250px, 100%);
@@ -145,6 +147,13 @@ body {
 
 .actionCard.alert {
     border-left: 8px solid #b91c1c;
+}
+
+.readIcon {
+    margin-top: auto;
+    justify-self: flex-end;
+    align-self: flex-end;
+    cursor: pointer;
 }
 
 .otherInformationContainer {
