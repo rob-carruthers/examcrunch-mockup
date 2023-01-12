@@ -3,12 +3,17 @@
     padding: 0;
 }
 
+:root {
+    --black: #293238;
+}
+
 a {
     text-decoration: none;
 }
 
 body {
     background-color: #e7e7e7;
+    color: var(--black);
 }
 
 #container {
@@ -30,7 +35,7 @@ body {
 }
 
 .header a {
-    color: black;
+    color: var(--black);
 }
 
 .sidebar {
